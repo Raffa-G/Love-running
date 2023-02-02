@@ -124,7 +124,7 @@ animation-fill-mode: forwards;
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
+    background-color: none;
 
 }
 
@@ -132,7 +132,7 @@ animation-fill-mode: forwards;
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+    background-color: none;
 
 }
 
@@ -141,4 +141,34 @@ animation-fill-mode: forwards;
     margin: 0 auto;
     background-color: green;
 
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-hight: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-hight: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-about-heading h2 {
+    text-align: right;
+}
+
+.right-about-heading p {
+    text-align: right;
 }
